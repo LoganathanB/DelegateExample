@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "Downloader.h"
+
+NSString *APPLE_URL = @"http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/661px-Red_Apple.jpg";
+NSString *ORANGE_URL = @"http://www.dailyfruit.de/images/product_images/original_images/orange.jpg";
+NSString *APPLE = @"apple";
+NSString *ORANGE = @"orange";
+
+
+@interface ViewController : UIViewController<DownloaderDelegate>
+- (IBAction)appleTapped:(id)sender;
+- (IBAction)orangeTapped:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

@@ -21,6 +21,8 @@
 		C3F33FBB18C986F00019889E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F33F9D18C986F00019889E /* UIKit.framework */; };
 		C3F33FC318C986F00019889E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F33FC118C986F00019889E /* InfoPlist.strings */; };
 		C3F33FC518C986F00019889E /* DelegateExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F33FC418C986F00019889E /* DelegateExampleTests.m */; };
+		C3F33FD018C9886F0019889E /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F33FCF18C9886F0019889E /* Downloader.m */; };
+		C3F33FD118C9886F0019889E /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F33FCF18C9886F0019889E /* Downloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		C3F33FC018C986F00019889E /* DelegateExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegateExampleTests-Info.plist"; sourceTree = "<group>"; };
 		C3F33FC218C986F00019889E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3F33FC418C986F00019889E /* DelegateExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateExampleTests.m; sourceTree = "<group>"; };
+		C3F33FCE18C9886F0019889E /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		C3F33FCF18C9886F0019889E /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				C3F33FAB18C986F00019889E /* Main.storyboard */,
 				C3F33FAE18C986F00019889E /* ViewController.h */,
 				C3F33FAF18C986F00019889E /* ViewController.m */,
+				C3F33FCE18C9886F0019889E /* Downloader.h */,
+				C3F33FCF18C9886F0019889E /* Downloader.m */,
 				C3F33FB118C986F00019889E /* Images.xcassets */,
 				C3F33FA018C986F00019889E /* Supporting Files */,
 			);
@@ -251,6 +257,7 @@
 			files = (
 				C3F33FB018C986F00019889E /* ViewController.m in Sources */,
 				C3F33FAA18C986F00019889E /* AppDelegate.m in Sources */,
+				C3F33FD018C9886F0019889E /* Downloader.m in Sources */,
 				C3F33FA618C986F00019889E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F33FD118C9886F0019889E /* Downloader.m in Sources */,
 				C3F33FC518C986F00019889E /* DelegateExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +468,7 @@
 				C3F33FCA18C986F00019889E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3F33FCB18C986F00019889E /* Build configuration list for PBXNativeTarget "DelegateExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				C3F33FCD18C986F00019889E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
